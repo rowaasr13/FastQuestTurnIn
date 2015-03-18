@@ -1,0 +1,9 @@
+Fast Quest Turn-in v2
+
+This addon helps you with turning in mass amounts of repeatable quest by binding all of actions "click on target -> select quest -> click continue -> select reward" on a single key. This allows you to quickly finish exact amount of turn-ins you need without taking control from you completely as some "right click quest giver and everything will be turned in no matter if you want it or not" addons do, which may mess up your intent to turn some smaller amount first and finish with big turn-in later.
+
+Usage: /fq Key QuestNumber RewardNumber
+QuestNumber and RewardNumber specify which quest in NPC list you want to complete and what optional reward to choose.
+You only need to specify a key to bind and numbers will default to first quest and reward if you don't set them.
+
+After you bound key just target quest giver by left-clicking him once and hit the key you bound until you've turned in exact amount you wanted. Typing /fq off will remove turn-ins from removed key, but it will still function the same way as if you right-clicked target. Because of that and because this addon works by hooking you may want to /run ReloadUI() once you've done with turn-ins to completely remove all addon's effects.
