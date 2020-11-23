@@ -18,7 +18,7 @@ local InterractNotHooked=1
 local selectQuest, selectReward
 local function InterractUnitHook()
 	if(selectQuest) then
-		SelectGossipAvailableQuest(selectQuest)
+		C_GossipInfo.SelectAvailableQuest(selectQuest)
 		CompleteQuest()
 		GetQuestReward(selectReward)
 	end
