@@ -1,7 +1,11 @@
-## Interface: 60100
+## Interface: 90002
 ## Title: Fast Quest Turn-in
 ## Author: Oleg "Rowaa[SR13]" Volkov
+
+## X-License: All Rights Reserved.
+## X-Curse-Project-ID: 28926
+
 ## Version: 2
 ## Notes: Allows you to bind repeated quest turn-ins on a button. Use /fq command for help.
-## X-Category: Interface Enhancements
+
 FastQuestTurnIn.lua
