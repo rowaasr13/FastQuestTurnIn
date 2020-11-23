@@ -1,3 +1,6 @@
+local a_name, a_env = ...
+if not a_env.load_this then return end
+
 local function UniqSlashID(base, maxNumber)
 	local clear=true
 	for idx=1, maxNumber do
