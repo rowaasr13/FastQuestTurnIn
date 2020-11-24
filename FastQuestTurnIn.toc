@@ -8,4 +8,6 @@
 ## Version: 2
 ## Notes: Allows you to bind repeated quest turn-ins on a button. Use /fq command for help.
 
++DEVEL.lua
+
 FastQuestTurnIn.lua
