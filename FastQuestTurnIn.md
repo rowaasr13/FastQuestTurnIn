@@ -1,4 +1,4 @@
-Fast Quest Turn In, v2
+Fast Quest Turn In, v3
 
 * https://www.curseforge.com/wow/addons/fastquestturnin
 

@@ -5,8 +5,8 @@
 ## X-License: All Rights Reserved.
 ## X-Curse-Project-ID: 28926
 
-## Version: 2
-## Notes: Allows you to bind repeated quest turn-ins on a button. Use /fq command for help.
+## Version: v3
+## Notes: Semi-automated repeated quest turn in on demand. Use /fq command for help.
 
 +DEVEL.lua
 
