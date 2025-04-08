@@ -20,8 +20,12 @@ local InterractNotHooked=1
 
 local selectQuest, selectReward
 local function InterractUnitHook()
-	if(selectQuest) then
-		C_GossipInfo.SelectAvailableQuest(selectQuest)
+	if selectQuest then
+		local quests = C_GossipInfo.GetAvailableQuests()
+		local quest_id = quests and quests[selectQuest] and quests[selectQuest].questID
+		if quest_id then
+			C_GossipInfo.SelectAvailableQuest(quest_id)
+		end
 		CompleteQuest()
 		GetQuestReward(selectReward)
 	end
@@ -46,10 +50,10 @@ local function FastQuestTurnInSlash(command)
 			else
 				quest=1 reward=1
 			end
-			DEFAULT_CHAT_FRAME:AddMessage("Binding to "..key..". Quest #"..quest..", reward #"..reward..".\nUse /fq off to turn off quest submission.")
+			print("Binding to "..key..". Quest #"..quest..", reward #"..reward..".\nUse /fq off to turn off quest submission.")
 			SetBinding(key, "INTERACTTARGET")
 			if(InterractNotHooked) then
-				hooksecurefunc("InteractUnit", InterractUnitHook)
+				hooksecurefunc(C_PlayerInteractionManager, "InteractUnit", InterractUnitHook)
 				InterractNotHooked=nil
 				InterractUnitHook=nil
 			end
