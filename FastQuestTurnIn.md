@@ -1,4 +1,4 @@
-Fast Quest Turn In, v3
+Fast Quest Turn In, v4
 
 * https://www.curseforge.com/wow/addons/fastquestturnin
 
@@ -8,17 +8,17 @@ A tool to help with mass turn in of any repeatable quest.
 This addon helps you to turn in large amount of any repeatable quest fast exactly as much as you want. Use `/fq` chat command described below to set any key as "quest turn in key", go to quest giver and press that key until you done turning in desired amount of quests.
 
 # How it is different?
-* Other automatic turn in addons are generally tailored to specific quests - Alterac Valley, reputation grinds, etc. If you want repeatedly turn in less popular quests you generally has either find another addon or ask author of some addon to add that quest too. Some quests, like pre-Shadowlands Argent Crusade Scourge tokens turn ins appear for so short time, that nobody bothers to create addons for them at all.
+* Other automatic turn in addons are generally tailored to specific quests - Alterac Valley, reputation grinds, etc. If you want repeatedly turn in less popular quests you generally has either find another addon or ask author of some addon to add that quest too. Some quests, like pre-Shadowlands Argent Crusade Scourge tokens turn-ins appear for so short time, that nobody bothers to create addons for them at all.
 * Automatic turn in addons generally scroll through all the pages without input, so you can't read the text if you interested and didn't see that quest before.
-* Other addons are generally "all-in" - they turn in everything whether you like it or not which could mess up some goals, like attaining full reputation in old Dark Iron Dwarves reputation turn ins.
+* Other addons are generally "all-in" - they turn in everything whether you like it or not which could mess up some goals, like activating reputation buffs before actual turn-in, etc.
 
-This addon uses semi-automatic on-demand approach that don't have all those problem: it works with any quest, it turns in exactly when you press button and exactly how much you want.
+This addon uses semi-automatic on-demand approach that don't have all those problem: it works with any quest, it turns-in exactly when you press button and exactly as many as you want.
 
 # How to use?
 
 1. Type in chat: `/fq (key)`, to bind it to any key you want, for example `/fq f12` to bind to F12.
 2. Target quest giver.
-3. Keep pressing the key you've bound until you turned in what you wanted.
+3. Keep pressing the key you've bound until you turned in all what you wanted.
 
 # Additional parameters
 
